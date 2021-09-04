@@ -40,5 +40,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "dependencies": {}
+  "dependencies": {
+    "classnames": "^2.3.1"
+  }
 }
