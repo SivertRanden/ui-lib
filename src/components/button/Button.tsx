@@ -10,5 +10,3 @@ export type ButtonProps = {
 export const Button = ({ text }: ButtonProps) => {
   return <button>{text}</button>;
 };
-
-export default Button;
