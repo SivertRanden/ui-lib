@@ -28,6 +28,7 @@ export default {
     postcss({
       extract: true,
       postcss: true,
+      autoModules: true,
       extensions: ['.scss'],
     }),
   ],
