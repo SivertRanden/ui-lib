@@ -6,7 +6,8 @@ import styles from './Button.module.scss';
 export type ButtonProps = ThemeProps & {
   /* Text to show in the button */
   text?: string;
-  variant?: 'outline' | 'solid' | 'underline';
+  /* Visual style of the button */
+  variant?: 'outline' | 'solid' | 'text';
 };
 
 export const Button = ({ text, variant = 'solid', size = 'm' }: ButtonProps) => {
