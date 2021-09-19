@@ -2,6 +2,19 @@
   // Colors
   --color-primary: #81e6d9;
   --color-dark-text: #1a202c;
+  --color-light-text: #f9fafb;
+  --color-gray-50: #f9fafb;
+  --color-gray-100: #f3f4f6;
+  --color-gray-200: #e5e7eb;
+  --color-gray-300: #d1d5db;
+  --color-gray-400: #9ca3af;
+  --color-gray-500: #6b7280;
+  --color-gray-600: #4b5563;
+  --color-gray-700: #374151;
+  --color-gray-800: #1f2937;
+  --color-gray-900: #111827;
+
+  --color-outline: var(--color-gray-600);
 
   // Spacing inspired by tailwind
   --space-px: 1px;
@@ -44,4 +57,9 @@
   --border-radius-m: 0.375rem;
   --border-radius-l: 0.5rem;
   --border-radius-full: 9999px;
+
+  // Transition
+  --transition-duration-normal: 200ms;
+  --transition-properties-common: background-color, border-color, color, fill, stroke, opacity,
+    box-shadow, transform;
 }
